@@ -39,6 +39,12 @@ https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/using-with-arduino-id
 With the power off, take the Grove cable included with the Air Quality Sensor and plug it into the Grove connector marked A7/A9 on the back of the BC24.  You are done!
 
 
+<H2>Testing</H2>
+
+You can see the values of the current air quality going by on the Arduino serial monitor.   The LEDs should all be green unless you are in a polluted environment.
+
+To further test, spray hairspray about 3 feet away from the sensor and see the air quality values go up (indicated worse air).   DO NOT SPRAY THE HAIRSPRAY AT YOUR SENSOR DIRECTORY OR YOU WILL DESTROY IT.  DON'T CONDUCT THIS TEST ON A REGULAR BASIS.
+
 <H2>WiFi Connection Sequence - Provisioning</H2>
 
 - SmartConfig<BR>
