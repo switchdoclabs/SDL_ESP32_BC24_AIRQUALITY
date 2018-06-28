@@ -3,6 +3,7 @@ BC24 With the Grove Air Quality Sensor <BR>
 SwitchDoc Labs June 2018 <BR>
 For the BC24 24 Pixel plus ESP32 Dual Core Processor with Grove Connectors
 
+June 28, 2018:  V005:   Changed 16 bit variables to long for rawAirQuality values
 June 18, 2018:  V004:   Initial Release June 19, 2018<BR>
 
 Features:
@@ -40,6 +41,8 @@ With the power off, take the Grove cable included with the Air Quality Sensor an
 
 
 <H2>Testing</H2>
+
+Note: After power up, it can take up to 5 minutes for the Air Quality sensor to start giving reasonable data.   The sensor has to warm up and stabilize.  Generally you will see higher pollution values until the process is complete.
 
 You can see the values of the current air quality going by on the Arduino serial monitor.   The LEDs should all be green unless you are in a polluted environment.
 

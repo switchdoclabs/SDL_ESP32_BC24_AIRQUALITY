@@ -1,6 +1,6 @@
 long getRawAirQuality(int ADCPin)
 {
-    int16_t sensor_value = analogRead(ADCPin);
+    long sensor_value = analogRead(ADCPin);
 
   sensor_value =  sensor_value*32;  // /3.2
   return sensor_value;
@@ -11,7 +11,7 @@ int getAirQuality(int ADCPin)
 {
 
 
-  int16_t sensor_value = analogRead(ADCPin);
+  long sensor_value = analogRead(ADCPin);
 
   sensor_value = sensor_value*32;  // /3.2
 
