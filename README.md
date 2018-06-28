@@ -25,9 +25,19 @@ https://shop.switchdoc.com/products/the-bc24-esp32-based-24-rgbw-pixels-with-gro
 
 All Libraries included in main directory
 
+<H2>Software Installation</H2>
+
+Download the latest Arduino IDE
+
+Install the ESP32 libraries. Use the Adafruit instructions here: 
+
+https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/using-with-arduino-ide
+
+
 <H2>Hardware Installation</H2>
 
 With the power off, take the Grove cable included with the Air Quality Sensor and plug it into the Grove connector marked A7/A9 on the back of the BC24.  You are done!
+
 
 <H2>WiFi Connection Sequence - Provisioning</H2>
 
