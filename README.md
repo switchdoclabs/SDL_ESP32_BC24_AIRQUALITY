@@ -3,6 +3,7 @@ BC24 With the Grove Air Quality Sensor <BR>
 SwitchDoc Labs June 2018 <BR>
 For the BC24 24 Pixel plus ESP32 Dual Core Processor with Grove Connectors
 
+July 01, 2018:  V006:   Added Kludge to fix broken ESP32 SDK 
 June 28, 2018:  V005:   Changed 16 bit variables to long for rawAirQuality values
 June 18, 2018:  V004:   Initial Release June 19, 2018<BR>
 

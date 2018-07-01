@@ -6,7 +6,7 @@
 //
 //
 
-#define BC24AIRQUALITYSOFTWAREVERSION "005"
+#define BC24AIRQUALITYSOFTWAREVERSION "006"
 #undef BC24DEBUG
 
 
@@ -94,6 +94,14 @@ String WPassword;
 
 
 #define ESP_WPS_MODE WPS_TYPE_PBC
+
+// Kludge for latest ESP32 SDK - July 1, 2018
+
+#define WPS_CONFIG_INIT_DEFAULT(type) { \
+    .wps_type = type, \
+    .crypto_funcs = &g_wifi_default_wps_crypto_funcs, \
+}
+
 
 esp_wps_config_t config = WPS_CONFIG_INIT_DEFAULT(ESP_WPS_MODE);
 
