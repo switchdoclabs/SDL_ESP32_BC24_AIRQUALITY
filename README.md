@@ -31,9 +31,13 @@ All Libraries included in main directory
 
 Download the latest Arduino IDE
 
-Install the ESP32 libraries. Use the Adafruit instructions here: 
+In order to install the Arduino IDE with support for the ESP32 on the BC24, please follow the tutorial here:
 
-https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/using-with-arduino-ide
+http://www.switchdoc.com/2018/07/tutorial-arduino-ide-esp32-bc24/
+
+Select the Adafruit ESP32 Feather under Tools
+
+Plug a USB Micro to USB connector into your computer (the one with the power supply will work) to establish the connection.
 
 
 <H2>Hardware Installation</H2>
